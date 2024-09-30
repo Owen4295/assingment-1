@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>About Me</h1>
+    <div id="list">
+        <ul>
+            <li>
+                  <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contact me.html">Contact</a>
+            </li>
+            <li>
+                <a href="project.html">Projects</a>
+            </li>
+            <li>
+                <a href="about me.html">Blogs</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="paragraph">
+   <h4>hello my name is owen Pacheco i was born on the 10th of november of 2005</h4>
+    </div>
+   
+        <div id="wrapper">
+            <h2>Cool Video</h2>
+            <video width="700" height="395" controls poster="on_record.png" autoplay loop muted id="myvid">
+                <source src="12-valve-burnout-MP4.mp4" type="video/mp4">
+                <source src="12-valve-burnout-OGV.ogv" type="video/ogv">
+            </video>
+            <br>
+            <button onclick="PlayPause()">Play/Pause Button</button>
+            <script>
+                var mybtn=document.getElementById("myvid");
+                function PlayPause()
+                {
+                    if(mybtn.paused)
+                        mybtn.play();
+                    else
+                        mybtn.pause();
+                }
+
+            </script>
+        </div>
+</body>
+</html>
+

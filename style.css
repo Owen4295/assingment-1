@@ -1,0 +1,94 @@
+
+                button{
+                    background-color: rgb(82, 82, 255);
+                    color: white;
+                    height: 50px;
+                    border: 2px whitesmoke;
+                    border-radius: 5px;
+                    margin: auto;
+                }
+                button:hover{
+                    background-color: rgb(255, 255, 86);
+                    color: black;
+                    height: 50px;
+                    border: 2px whitesmoke;
+                    border-radius: 5px;
+                }
+
+                #pic-of-me img {
+                    display: block;
+                    margin: auto;
+                    border-radius: 50%;
+                    border: 6px solid teal;
+                }
+                
+                h1 {
+                  text-align: center;
+                  color: teal;
+                  font-size: 55px;
+                }
+                
+                h2{
+                    font-size: 30px;
+                }
+
+                p{ 
+                 margin: auto;
+                 width: 500px;
+                }
+
+
+                body{
+                    background-color: grey;
+                    color:aqua;
+                    text-align: center;
+                }
+
+                
+                #list {
+                    text-align: center;
+                    margin:auto;
+                }
+                
+                
+                #list ul li {
+                    display: inline;
+                    margin-right: 15px;
+                }
+                
+                #list ul li a {
+                    text-decoration: none;
+                    color: aqua;
+                    padding: 10px 20px;
+                    background-color: teal;
+                    border-radius: 5px;
+                    
+                }
+                
+                #list ul li a:hover {
+                    background-color: lightblue;
+                }
+
+                #paragraph{
+                    text-align: center;
+
+
+                }
+                #project-pic1 img {
+                    display: block;
+                    margin: auto;
+                    border: 6px solid teal;
+                }
+
+
+                #project-pic2 img {
+                    display: block;
+                    margin: auto;
+                    border: 6px solid teal;
+                }
+
+                #wrapper video{
+                    display: block;
+                    margin: auto;
+                    border: 6px solid teal;
+                }
