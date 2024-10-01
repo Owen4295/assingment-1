@@ -21,6 +21,11 @@
                     border-radius: 50%;
                     border: 6px solid teal;
                 }
+                #pic-of-me-2 img {
+                    display: block;
+                    margin: auto;
+                    border: 6px solid teal;
+                }
                 
                 h1 {
                   text-align: center;
@@ -29,17 +34,21 @@
                 }
                 
                 h2{
-                    font-size: 30px;
+                    font-size: 40px;
+                    color: teal;
+                    margin-top: 50px;
                 }
 
                 p{ 
                  margin: auto;
                  width: 500px;
+                 margin-top: 40px;
+                 margin-bottom: 30px;
                 }
 
 
                 body{
-                    background-color: grey;
+                    background-color: black;
                     color:aqua;
                     text-align: center;
                 }
