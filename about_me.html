@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_me.html">Contact</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="about_me.html">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Owen Pacheco</h2>
+    
+    <div id="pic-of-me-2">
+        <img src="pic_of_me.jpg" width="220" height="220" alt="Picture of Owen Pacheco">
+    </div>
+    
+    <div id="paragraph">
+        <p>Hello, my name is Owen Pacheco. I was born on the 10th of November 2005. I have Portuguese roots and I grew up in Pickering, where I’ve created countless memories.</p>
+    </div>
+   
+    <div id="wrapper">
+        <h2>Little Video About Me</h2>
+        <video width="700" height="395" controls poster="pic_of_me.jpg" loop muted id="myvid" preload="auto">
+            <source src="video-about-me.mp4" type="video/mp4">
+            <source src="video-about-me.ogv" type="video/ogv">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <button onclick="PlayPause()">Play/Pause Button</button>
+        <script>
+            var mybtn = document.getElementById("myvid");
+            function PlayPause() {
+                if (mybtn.paused) {
+                    mybtn.play();
+                } else {
+                    mybtn.pause();
+                }
+            }
+        </script>
+    </div>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:owen.pacheco1@ontariotechu.net">owen.pacheco1@ontariotechu.net</a></p>
+        <p>&copy; 2024 by <b>Owen Pacheco</b></p>
+    </footer>
+
+</body>
+</html>
